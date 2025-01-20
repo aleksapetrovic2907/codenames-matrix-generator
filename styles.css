@@ -29,7 +29,7 @@ select {
     -webkit-appearance: none; /* Removes the dropdown arrow in WebKit browsers (Safari, Chrome) */
     -moz-appearance: none; /* Removes the dropdown arrow in Firefox */
 
-    padding: 8px 16px;
+    padding: 6px 16px;
     border: none;
     border-radius: 4px;
     color: white;
@@ -39,7 +39,7 @@ select {
 }
 
 .generate-matrix-wrapper > button {
-    padding: 8px 16px;
+    padding: 6px 16px;
     border: none;
     border-radius: 4px;
     color: white;
