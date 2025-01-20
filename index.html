@@ -8,20 +8,22 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-    <div class="actions-container">
-      <div class="team-select-wrapper">
-        <label for="team-select">First team:</label>
-        <select name="team-select" id="team-select">
-          <option value="teamA" selected>Red</option>
-          <option value="teamB">Blue</option>
-        </select>
+    <div class="content">
+      <div class="actions-container">
+        <div class="team-select-wrapper">
+          <label for="team-select">First team:</label>
+          <select name="team-select" id="team-select">
+            <option value="teamA" selected>Red</option>
+            <option value="teamB">Blue</option>
+          </select>
+        </div>
+        <div class="generate-matrix-wrapper">
+          <button>Generate</button>
+        </div>
       </div>
-      <div class="generate-matrix-wrapper">
-        <button>Generate</button>
+      <div id="matrix-wrapper">
+        <div id="matrix"></div>
       </div>
-    </div>
-    <div id="matrix-wrapper">
-      <div id="matrix"></div>
     </div>
   </body>
 </html>
