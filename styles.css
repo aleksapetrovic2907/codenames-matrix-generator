@@ -1,9 +1,11 @@
 #matrix {
     display: grid;
     grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+    gap: 6px;
 
     background-color: black;
     border-radius: 8px;
+    padding: 16px;
 
     /* Temporary sizing */
     width: 300px;
