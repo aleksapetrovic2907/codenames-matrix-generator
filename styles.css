@@ -28,7 +28,8 @@ body {
     border-radius: 8px;
     padding: 16px;
 
-    flex: 1 1 auto;
+    flex: 1 1 0;
+    aspect-ratio: 1;
 }
 
 #matrix > div {
