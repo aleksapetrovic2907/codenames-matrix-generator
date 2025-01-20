@@ -44,6 +44,11 @@ body {
     border-radius: 4px;
 }
 
+.team-select-wrapper > label {
+    font-size: .9rem;
+    margin-right: 8px;
+}
+
 select {
     appearance: none; /* Removes the default dropdown arrow (for most browsers) */
     -webkit-appearance: none; /* Removes the dropdown arrow in WebKit browsers (Safari, Chrome) */
