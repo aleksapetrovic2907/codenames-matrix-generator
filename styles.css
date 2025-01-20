@@ -10,6 +10,13 @@
     height: 300px;
 }
 
+#matrix > div {
+    border-radius: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .teamA {
     background: url("imgs/redCell.png");
 }
