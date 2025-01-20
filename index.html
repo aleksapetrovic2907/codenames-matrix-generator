@@ -7,5 +7,19 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="index.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="actions-container">
+      <div class="team-select-wrapper">
+        <label for="team-select">First team:</label>
+        <select name="team-select" id="team-select">
+          <option value="teamA" selected>A</option>
+          <option value="teamA">B</option>
+        </select>
+      </div>
+      <div class="generate-matrix-wrapper">
+        <button>Generate</button>
+      </div>
+    </div>
+    <div id="matrix"></div>
+  </body>
 </html>
