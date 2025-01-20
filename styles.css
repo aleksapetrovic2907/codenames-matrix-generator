@@ -9,3 +9,19 @@
     width: 300px;
     height: 300px;
 }
+
+.teamA {
+    background: url("imgs/redCell.png");
+}
+
+.teamB {
+    background: url("imgs/blueCell.png");
+}
+
+.neutral {
+    background: url("imgs/neutralCell.png");
+}
+
+.death {
+    background: url("imgs/deathCell.png");
+}
