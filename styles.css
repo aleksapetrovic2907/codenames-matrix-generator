@@ -13,30 +13,15 @@
     align-items: center;
 }
 
-#matrix-wrapper {
-    border-radius: 16px;
-    padding: 32px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1 0;
-}
-
 #matrix {
     display: grid;
     grid-template: repeat(5, 1fr) / repeat(5, 1fr);
     gap: 6px;
     
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border: 32px solid #916f53;
     background-color: black;
     border-radius: 8px;
     padding: 16px;
-
-    /* Stretch here to fill entire #matrix-wrapper */
-    height: 100%;
-    aspect-ratio: 1;
 }
 
 #matrix > div {
