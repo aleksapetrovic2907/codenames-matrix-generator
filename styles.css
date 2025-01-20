@@ -34,9 +34,9 @@
     border-radius: 8px;
     padding: 16px;
 
-    /* Temporary sizing */
-    width: 300px;
-    height: 300px;
+    /* Stretch here to fill entire #matrix-wrapper */
+    height: 100%;
+    aspect-ratio: 1;
 }
 
 #matrix > div {
